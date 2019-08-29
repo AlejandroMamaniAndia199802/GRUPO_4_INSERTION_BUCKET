@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\RADIX_SORT_GRUPO_4
+CMAKE_SOURCE_DIR = C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\RADIX_SORT_GRUPO_4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\RADIX_SORT_GRUPO_4\cmake-build-debug\CMakeFiles C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\RADIX_SORT_GRUPO_4\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\RADIX_SORT_GRUPO_4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RADIX_SORT_GRUPO_4
+# Target rules for targets named GRUPO_4
 
 # Build rule for target.
-RADIX_SORT_GRUPO_4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 RADIX_SORT_GRUPO_4
-.PHONY : RADIX_SORT_GRUPO_4
+GRUPO_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GRUPO_4
+.PHONY : GRUPO_4
 
 # fast build rule for target.
-RADIX_SORT_GRUPO_4/fast:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/build
-.PHONY : RADIX_SORT_GRUPO_4/fast
+GRUPO_4/fast:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/build
+.PHONY : GRUPO_4/fast
 
 BUCKET.obj: BUCKET.cpp.obj
 
@@ -128,7 +128,7 @@ BUCKET.obj: BUCKET.cpp.obj
 
 # target to build an object file
 BUCKET.cpp.obj:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/BUCKET.cpp.obj
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj
 .PHONY : BUCKET.cpp.obj
 
 BUCKET.i: BUCKET.cpp.i
@@ -137,7 +137,7 @@ BUCKET.i: BUCKET.cpp.i
 
 # target to preprocess a source file
 BUCKET.cpp.i:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/BUCKET.cpp.i
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.i
 .PHONY : BUCKET.cpp.i
 
 BUCKET.s: BUCKET.cpp.s
@@ -146,7 +146,7 @@ BUCKET.s: BUCKET.cpp.s
 
 # target to generate assembly for a file
 BUCKET.cpp.s:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/BUCKET.cpp.s
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.s
 .PHONY : BUCKET.cpp.s
 
 INSERT.obj: INSERT.cpp.obj
@@ -155,7 +155,7 @@ INSERT.obj: INSERT.cpp.obj
 
 # target to build an object file
 INSERT.cpp.obj:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/INSERT.cpp.obj
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj
 .PHONY : INSERT.cpp.obj
 
 INSERT.i: INSERT.cpp.i
@@ -164,7 +164,7 @@ INSERT.i: INSERT.cpp.i
 
 # target to preprocess a source file
 INSERT.cpp.i:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/INSERT.cpp.i
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.i
 .PHONY : INSERT.cpp.i
 
 INSERT.s: INSERT.cpp.s
@@ -173,7 +173,7 @@ INSERT.s: INSERT.cpp.s
 
 # target to generate assembly for a file
 INSERT.cpp.s:
-	$(MAKE) -f CMakeFiles\RADIX_SORT_GRUPO_4.dir\build.make CMakeFiles/RADIX_SORT_GRUPO_4.dir/INSERT.cpp.s
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.s
 .PHONY : INSERT.cpp.s
 
 # Help Target
@@ -182,7 +182,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... RADIX_SORT_GRUPO_4
+	@echo ... GRUPO_4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BUCKET.obj
