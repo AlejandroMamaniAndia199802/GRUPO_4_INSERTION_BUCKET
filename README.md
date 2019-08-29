@@ -25,7 +25,7 @@ This project allows to sort numbers in C++, using t
 ### EFFICIENCY AND COMPUTATIONAL COST
 
 
-## CONCLUSIONS
+# CONCLUSIONS
 
 
 # REFERENCES
