@@ -95,6 +95,9 @@
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/catch.hpp">
 			<Option target="GRUPO_4"/>
 		</Unit>
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/main-test.cpp">
+			<Option target="GRUPO_4"/>
+		</Unit>
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

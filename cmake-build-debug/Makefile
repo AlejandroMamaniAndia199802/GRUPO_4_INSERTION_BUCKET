@@ -176,6 +176,33 @@ INSERT.cpp.s:
 	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.s
 .PHONY : INSERT.cpp.s
 
+main-test.obj: main-test.cpp.obj
+
+.PHONY : main-test.obj
+
+# target to build an object file
+main-test.cpp.obj:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/main-test.cpp.obj
+.PHONY : main-test.cpp.obj
+
+main-test.i: main-test.cpp.i
+
+.PHONY : main-test.i
+
+# target to preprocess a source file
+main-test.cpp.i:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/main-test.cpp.i
+.PHONY : main-test.cpp.i
+
+main-test.s: main-test.cpp.s
+
+.PHONY : main-test.s
+
+# target to generate assembly for a file
+main-test.cpp.s:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/main-test.cpp.s
+.PHONY : main-test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +218,9 @@ help:
 	@echo ... INSERT.obj
 	@echo ... INSERT.i
 	@echo ... INSERT.s
+	@echo ... main-test.obj
+	@echo ... main-test.i
+	@echo ... main-test.s
 .PHONY : help
 
 
