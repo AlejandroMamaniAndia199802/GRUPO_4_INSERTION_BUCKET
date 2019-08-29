@@ -1,4 +1,4 @@
-## BUCKET AND INSERT SORTING METHODS IN C++
+# BUCKET AND INSERT SORTING METHODS IN C++
 
 # OVERVIEW
 This project allows to sort numbers in C++, using t
