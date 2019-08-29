@@ -7,6 +7,11 @@
 
 
 class INSERT {
+public:
+    int j, k;
+    INSERT();
+    void sortingArray(int *arr, int n);
+    void printArray(int *arr, int n);
 
 };
 

@@ -11,11 +11,12 @@ SCENARIO("Testing a Insert and Bucket sorting methods" )
 {
     GIVEN("A sequence of numbers")
     {
-        int A[] = {55, 64, 43, 21,6, 124, 54,14123,243};
+        int *A = nullptr;
+        int N = 10;
         WHEN("A BUCKET SORT WORKS")
         {
             BUCKET bucket;
-            bucket.sort();
+            bucket.sortingArray();
             THEN("A program charge")
             {
 
@@ -25,10 +26,10 @@ SCENARIO("Testing a Insert and Bucket sorting methods" )
         WHEN("A INSERT SORT WORKS")
         {
             INSERT insert;
-            insert.sort();
+            insert.sortingArray(A, N);
             THEN("A program charge")
             {
-
+                insert.printArray(A,N);
                 REQUIRE(insert.verify()==1)
             }
         }
