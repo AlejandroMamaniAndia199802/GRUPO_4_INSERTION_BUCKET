@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-
+#include <list>
+#include <algorithm>
 #include "sorter.h"
-
+#include <cmath>
+using namespace std;
 void sorter::insertionSortarr(int arr[], int n)
 {
 	int j;
@@ -59,8 +61,6 @@ void sorter::bucketSortarr(int arr[], int n)
 	}
 
 	//Insertion sort in each bucket
-	for (int i =0; i<buckets; i++)
-		insertionSortVect(b[i]);
 
 	int index = 0;
 
@@ -68,3 +68,53 @@ void sorter::bucketSortarr(int arr[], int n)
 		for (int j = 0; j < b[i].size(); j++)
 			arr[index++] = b[i][j];
 }
+
+void sorter::bucketSortVect(std::vector<int> &v)
+{
+    int largest = 0;
+    for (int &i: v)
+    {
+        if (i > largest)
+        {
+            largest = i;
+        }
+    }
+    vector<vector<int>> bucket(10+1);
+    for (int &i: v) {
+        int n = i*10/largest;
+        if (bucket[n].size() == 0)
+        {
+            bucket[n].push_back(i);
+        }
+        else
+            {
+            vector<int>::iterator itr = bucket[n].begin();
+            while(itr != bucket[n].end())
+            {
+                if (i < *itr)
+                {
+                    bucket[n].insert(itr, i);
+                    break;
+                } else
+                    {
+                    itr++;
+                }
+            }
+            if (itr == bucket[n].end())
+            {
+                bucket[n].push_back(i);
+            }
+        }
+    }
+
+    int i = 0;
+    for (int n=0; n<bucket.size(); n++)
+    {
+        for (auto itr=bucket[n].begin(); itr != bucket[n].end(); itr++)
+        {
+            v[i++] = *itr;
+        }
+    }
+}
+
+
