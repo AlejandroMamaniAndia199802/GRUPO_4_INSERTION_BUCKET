@@ -1,12 +1,11 @@
 #ifndef SORTER_H
 #define SORTER_H
 #include <vector>
-class SORTER
-{
+class SORTER{
 public:
-	static void insertionSort(int arr[], int n);
-	static void insertionSort(std::vector<int> &arr);
-	static void bucketSort(int *arr, int n);
+	static void insertionSortarr(int arr[], int n);
+	static void insertionSortvect(std::vector<int> &arr);
+	static void bucketSortarr(int arr[], int n);
 };
 
 #endif
