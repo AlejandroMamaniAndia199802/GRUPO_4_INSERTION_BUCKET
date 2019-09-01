@@ -38,5 +38,17 @@ TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING VECTOR")
     {
         REQUIRE(sortedY[i] == Y[i]);
     }
-
 }
+TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING ARRAY")
+{
+    sorter sortingTester_3;
+    int N = 6;
+    int arrZ[]={4, 15, 5, 6, 42, 23};
+    int sortedarrZ[]={4, 5, 6, 15, 23, 42};
+    sortingTester_3.bucketSortarr(arrZ, N);
+    for (int i = 0; i < N; ++i)
+    {
+        REQUIRE(sortedarrZ[i] == arrZ[i]);
+    }
+}
+

@@ -49,9 +49,7 @@ void sorter::bucketSortarr(int arr[], int n)
 			max = arr[i];
 
 	const int buckets = 10;
-
 	std::vector<int> b[buckets];
-
 	int devider = ceil((max +1)/buckets);
 
 	for (int i=0; i<n; i++)
@@ -59,9 +57,6 @@ void sorter::bucketSortarr(int arr[], int n)
 		int bi = floor(arr[i] / devider);
 		b[bi].push_back(arr[i]);
 	}
-
-	//Insertion sort in each bucket
-
 	int index = 0;
 
 	for (int i = 0; i < n; i++)
@@ -88,7 +83,7 @@ void sorter::bucketSortVect(std::vector<int> &v)
         }
         else
             {
-            vector<int>::iterator itr = bucket[n].begin();
+            vector<int>::iterator  itr = bucket[n].begin();
             while(itr != bucket[n].end())
             {
                 if (i < *itr)
