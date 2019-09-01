@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.cpp" "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/cmake-build-debug/CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj"
-  "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.cpp" "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/cmake-build-debug/CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj"
+  "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/SORTER.cpp" "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/cmake-build-debug/CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj"
   "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/main-test.cpp" "C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/cmake-build-debug/CMakeFiles/GRUPO_4.dir/main-test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

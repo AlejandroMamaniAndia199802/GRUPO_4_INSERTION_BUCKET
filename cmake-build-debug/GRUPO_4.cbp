@@ -80,16 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.cpp">
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/SORTER.cpp">
 			<Option target="GRUPO_4"/>
 		</Unit>
-		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.h">
-			<Option target="GRUPO_4"/>
-		</Unit>
-		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.cpp">
-			<Option target="GRUPO_4"/>
-		</Unit>
-		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.h">
+		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/SORTER.h">
 			<Option target="GRUPO_4"/>
 		</Unit>
 		<Unit filename="C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/catch.hpp">

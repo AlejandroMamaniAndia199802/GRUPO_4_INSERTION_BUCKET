@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.cpp
-BUCKET.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.h
-
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.h
-
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.cpp
-INSERT.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.h
-iostream
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/SORTER.h
+vector
 -
-
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.h
 
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/catch.hpp
 TargetConditionals.h
@@ -473,14 +463,8 @@ cassert
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/main-test.cpp
 iostream
 -
-BUCKET.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.h
-BUCKET.cpp
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/BUCKET.cpp
-INSERT.h
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.h
-INSERT.cpp
-C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/INSERT.cpp
+SORTER.h
+C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/SORTER.h
 catch.hpp
 C:/Users/albin/Desktop/Documents/GitHub/ALGORITMOS/RADIX_SORT/INSERT_BUCKET_GRUPO_4/catch.hpp
 

@@ -6,4 +6,4 @@ set(CMAKE_CXX_FLAGS -pthread)
 
 
 
-add_executable(GRUPO_4 catch.hpp INSERT.cpp INSERT.h BUCKET.cpp BUCKET.h main-test.cpp)
+add_executable(GRUPO_4 SORTER.h SORTER.cpp catch.hpp main-test.cpp)

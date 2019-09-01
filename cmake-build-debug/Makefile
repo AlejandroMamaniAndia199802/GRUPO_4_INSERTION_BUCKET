@@ -122,59 +122,32 @@ GRUPO_4/fast:
 	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/build
 .PHONY : GRUPO_4/fast
 
-BUCKET.obj: BUCKET.cpp.obj
+SORTER.obj: SORTER.cpp.obj
 
-.PHONY : BUCKET.obj
-
-# target to build an object file
-BUCKET.cpp.obj:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj
-.PHONY : BUCKET.cpp.obj
-
-BUCKET.i: BUCKET.cpp.i
-
-.PHONY : BUCKET.i
-
-# target to preprocess a source file
-BUCKET.cpp.i:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.i
-.PHONY : BUCKET.cpp.i
-
-BUCKET.s: BUCKET.cpp.s
-
-.PHONY : BUCKET.s
-
-# target to generate assembly for a file
-BUCKET.cpp.s:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/BUCKET.cpp.s
-.PHONY : BUCKET.cpp.s
-
-INSERT.obj: INSERT.cpp.obj
-
-.PHONY : INSERT.obj
+.PHONY : SORTER.obj
 
 # target to build an object file
-INSERT.cpp.obj:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj
-.PHONY : INSERT.cpp.obj
+SORTER.cpp.obj:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj
+.PHONY : SORTER.cpp.obj
 
-INSERT.i: INSERT.cpp.i
+SORTER.i: SORTER.cpp.i
 
-.PHONY : INSERT.i
+.PHONY : SORTER.i
 
 # target to preprocess a source file
-INSERT.cpp.i:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.i
-.PHONY : INSERT.cpp.i
+SORTER.cpp.i:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/SORTER.cpp.i
+.PHONY : SORTER.cpp.i
 
-INSERT.s: INSERT.cpp.s
+SORTER.s: SORTER.cpp.s
 
-.PHONY : INSERT.s
+.PHONY : SORTER.s
 
 # target to generate assembly for a file
-INSERT.cpp.s:
-	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/INSERT.cpp.s
-.PHONY : INSERT.cpp.s
+SORTER.cpp.s:
+	$(MAKE) -f CMakeFiles\GRUPO_4.dir\build.make CMakeFiles/GRUPO_4.dir/SORTER.cpp.s
+.PHONY : SORTER.cpp.s
 
 main-test.obj: main-test.cpp.obj
 
@@ -212,12 +185,9 @@ help:
 	@echo ... GRUPO_4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BUCKET.obj
-	@echo ... BUCKET.i
-	@echo ... BUCKET.s
-	@echo ... INSERT.obj
-	@echo ... INSERT.i
-	@echo ... INSERT.s
+	@echo ... SORTER.obj
+	@echo ... SORTER.i
+	@echo ... SORTER.s
 	@echo ... main-test.obj
 	@echo ... main-test.i
 	@echo ... main-test.s

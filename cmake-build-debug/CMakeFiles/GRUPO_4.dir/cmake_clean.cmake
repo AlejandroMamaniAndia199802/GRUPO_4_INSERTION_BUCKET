@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj"
-  "CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj"
+  "CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj"
   "CMakeFiles/GRUPO_4.dir/main-test.cpp.obj"
   "GRUPO_4.pdb"
   "GRUPO_4.exe"

@@ -56,35 +56,22 @@ include CMakeFiles/GRUPO_4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GRUPO_4.dir/flags.make
 
-CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj: CMakeFiles/GRUPO_4.dir/flags.make
-CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj: ../INSERT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GRUPO_4.dir\INSERT.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\INSERT.cpp
+CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj: CMakeFiles/GRUPO_4.dir/flags.make
+CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj: ../SORTER.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GRUPO_4.dir\SORTER.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\SORTER.cpp
 
-CMakeFiles/GRUPO_4.dir/INSERT.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GRUPO_4.dir/INSERT.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\INSERT.cpp > CMakeFiles\GRUPO_4.dir\INSERT.cpp.i
+CMakeFiles/GRUPO_4.dir/SORTER.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GRUPO_4.dir/SORTER.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\SORTER.cpp > CMakeFiles\GRUPO_4.dir\SORTER.cpp.i
 
-CMakeFiles/GRUPO_4.dir/INSERT.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRUPO_4.dir/INSERT.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\INSERT.cpp -o CMakeFiles\GRUPO_4.dir\INSERT.cpp.s
-
-CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj: CMakeFiles/GRUPO_4.dir/flags.make
-CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj: ../BUCKET.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GRUPO_4.dir\BUCKET.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\BUCKET.cpp
-
-CMakeFiles/GRUPO_4.dir/BUCKET.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GRUPO_4.dir/BUCKET.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\BUCKET.cpp > CMakeFiles\GRUPO_4.dir\BUCKET.cpp.i
-
-CMakeFiles/GRUPO_4.dir/BUCKET.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRUPO_4.dir/BUCKET.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\BUCKET.cpp -o CMakeFiles\GRUPO_4.dir\BUCKET.cpp.s
+CMakeFiles/GRUPO_4.dir/SORTER.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GRUPO_4.dir/SORTER.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\SORTER.cpp -o CMakeFiles\GRUPO_4.dir\SORTER.cpp.s
 
 CMakeFiles/GRUPO_4.dir/main-test.cpp.obj: CMakeFiles/GRUPO_4.dir/flags.make
 CMakeFiles/GRUPO_4.dir/main-test.cpp.obj: ../main-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GRUPO_4.dir/main-test.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GRUPO_4.dir/main-test.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GRUPO_4.dir\main-test.cpp.obj -c C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\main-test.cpp
 
 CMakeFiles/GRUPO_4.dir/main-test.cpp.i: cmake_force
@@ -97,21 +84,19 @@ CMakeFiles/GRUPO_4.dir/main-test.cpp.s: cmake_force
 
 # Object files for target GRUPO_4
 GRUPO_4_OBJECTS = \
-"CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj" \
-"CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj" \
+"CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj" \
 "CMakeFiles/GRUPO_4.dir/main-test.cpp.obj"
 
 # External object files for target GRUPO_4
 GRUPO_4_EXTERNAL_OBJECTS =
 
-GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/INSERT.cpp.obj
-GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/BUCKET.cpp.obj
+GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/SORTER.cpp.obj
 GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/main-test.cpp.obj
 GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/build.make
 GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/linklibs.rsp
 GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/objects1.rsp
 GRUPO_4.exe: CMakeFiles/GRUPO_4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GRUPO_4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\albin\Desktop\Documents\GitHub\ALGORITMOS\RADIX_SORT\INSERT_BUCKET_GRUPO_4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GRUPO_4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GRUPO_4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
