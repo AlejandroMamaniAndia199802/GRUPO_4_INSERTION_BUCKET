@@ -64,50 +64,44 @@ void sorter::bucketSortarr(int arr[], int n)
 			arr[index++] = b[i][j];
 }
 
-void sorter::bucketSortVect(std::vector<int> &v)
+void sorter::bucketSortVect(std::vector<int> &data)
 {
-    int largest = 0;
-    for (int &i: v)
+    int count =data.size();
+    int minValue = data[0];
+    int maxValue = data[0];
+
+    for (int i = 1; i < count; i++)
     {
-        if (i > largest)
-        {
-            largest = i;
-        }
-    }
-    vector<vector<int>> bucket(10+1);
-    for (int &i: v) {
-        int n = i*10/largest;
-        if (bucket[n].size() == 0)
-        {
-            bucket[n].push_back(i);
-        }
-        else
-            {
-            vector<int>::iterator  itr = bucket[n].begin();
-            while(itr != bucket[n].end())
-            {
-                if (i < *itr)
-                {
-                    bucket[n].insert(itr, i);
-                    break;
-                } else
-                    {
-                    itr++;
-                }
-            }
-            if (itr == bucket[n].end())
-            {
-                bucket[n].push_back(i);
-            }
-        }
+        if (data[i] > maxValue)
+            maxValue = data[i];
+        if (data[i] < minValue)
+            minValue = data[i];
     }
 
-    int i = 0;
-    for (int n=0; n<bucket.size(); n++)
+    int bucketLength = maxValue - minValue + 1;
+    vector<vector<int>> bucket(bucketLength);
+    for (int i = 0; i < bucketLength; i++)
     {
-        for (auto itr=bucket[n].begin(); itr != bucket[n].end(); itr++)
+        bucket[i] = vector<int>();
+    }
+
+    for (int i = 0; i < count; i++)
+    {
+        bucket[data[i] - minValue].push_back(data[i]);
+    }
+
+    int k = 0;
+    for (int i = 0; i < bucketLength; i++)
+    {
+        int bucketSize = bucket[i].size();
+
+        if (bucketSize > 0)
         {
-            v[i++] = *itr;
+            for (int j = 0; j < bucketSize; j++)
+            {
+                data[k] = bucket[i][j];
+                k++;
+            }
         }
     }
 }
