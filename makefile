@@ -18,3 +18,4 @@ clean:
 	rm -rf $(OUTPUT)
 
 all: clean catch2 src tests exe
+
