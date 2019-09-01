@@ -8,11 +8,11 @@
 
 class INSERT {
 public:
-    int j, k;
-    INSERT();
-    void sortingArray(int *arr, int n);
-    void printArray(int *arr, int n);
-
+    int  *elements= nullptr;
+    int size_t;
+    INSERT(int *elements, int size_t);
+    void sortingArray();
+    void printArray();
 };
 
 

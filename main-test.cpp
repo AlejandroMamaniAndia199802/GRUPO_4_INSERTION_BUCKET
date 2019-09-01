@@ -6,35 +6,22 @@
 #include "INSERT.h"
 #include "INSERT.cpp"
 #include "catch.hpp"
-
-SCENARIO("Testing a Insert and Bucket sorting methods" )
+TEST_CASE("sort a vector")
 {
-    GIVEN("A sequence of numbers")
-    {
-        int *A = nullptr;
-        int N = 10;
-        WHEN("A BUCKET SORT WORKS")
-        {
-            BUCKET bucket;
-            bucket.sortingArray();
-            THEN("A program charge")
-            {
+    std::vector<int> v{4, 8, 15, 16, 23, 42};
+    REQUIRE(v.size() == 6);
 
-                REQUIRE(bucket.verify()==1)
-            }
-        }
-        WHEN("A INSERT SORT WORKS")
-        {
-            INSERT insert;
-            insert.sortingArray(A, N);
-            THEN("A program charge")
-            {
-                insert.printArray(A,N);
-                REQUIRE(insert.verify()==1)
-            }
-        }
+    SECTION("sort descending order") {
+        std::sort(v.begin(), v.end(), std::greater<int>());
+
+        CHECK(v.front() == 42);
+        CHECK(v.back() == 4);
+    }
+
+    SECTION("sort ascending order") {
+        std::sort(v.begin(), v.end(), std::less<int>());
+
+        CHECK(v.front() == 4);
+        CHECK(v.back() == 42);
     }
 }
-
-
-

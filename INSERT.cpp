@@ -5,27 +5,35 @@
 #include "INSERT.h"
 #include <iostream>
 
-INSERT::INSERT() {}
-
-void INSERT::sortingArray(int *arr, int n)
-{
-    for(int i = 1; i<n;i++)
+INSERT::INSERT(int *elements, int size_t)
     {
-        k = *(arr+i);
-        j = i-1;
-        do{
-            *(arr+(i+1))=*(arr+i);
-            j--;
-        }while(j>=0 && *(arr+i) >k);
-    }
-    *(arr+(j+1))=k;
+    this->elements = elements;
+    this-> size_t = size_t;
+
 }
 
-void INSERT::printArray(int *arr, int n)
+void INSERT::sortingArray()
+{
+    int k =0;
+    int j =0;
+    for(int i = 1; i<size_t;i++)
+    {
+
+        k = *(elements+i);
+        j = i-1;
+        do{
+            *(elements+(i+1))=*(elements+i);
+            j--;
+        }while(j>=0 && *(elements+i) >k);
+    }
+    *(elements+(j+1))=k;
+}
+
+void INSERT::printArray()
 {
     int i;
-    for (i = 0; i < n; i++)
-        std::cout << arr[i] << " ";
+    for (i = 0; i < size_t; i++)
+        std::cout << *(elements+i) << " ";
     std::cout << std::endl;
 
 }
