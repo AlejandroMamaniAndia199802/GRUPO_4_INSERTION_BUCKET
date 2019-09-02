@@ -69,7 +69,7 @@ void sorter::bucketSortarr(int arr[], int n)
     }
 
     int index = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < buckets; i++)
         for (int j = 0; j < b[i].size(); j++)
             arr[index++] = b[i][j];
 }
