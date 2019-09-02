@@ -54,19 +54,15 @@ TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING VECTOR")
 }
 TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING ARRAY")
 {
-
-    int N = 6;
-    int arrZ[]={4, 15, 6, 5, 42, 23};
-    int sortedarrZ[]={4, 5, 6, 15, 23, 42};
-    auto start = std::chrono::high_resolution_clock::now();
     sorter sortingTester_3;
+    int N = 6;
+    double arrZ[]={4.25, 5.3, 10, 8.4, 8, 4.23};
+    double sortedarrZ[]={4.23, 4.25, 5.3, 8, 8.4, 10};
     sortingTester_3.bucketSortarr(arrZ, N);
-    auto finish = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = finish - start;
-    std::cout << "Time interval Bucket (Array): " << elapsed.count() << " s" << std::endl;
     for (int i = 0; i < N; ++i)
     {
         REQUIRE(sortedarrZ[i] == arrZ[i]);
     }
 }
+
 
