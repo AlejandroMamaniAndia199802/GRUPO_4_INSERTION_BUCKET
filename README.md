@@ -22,10 +22,8 @@ Space/time complexity table.
 
 * a
 * a
-* a
 
 ## References
 
 1. a
 2. a
-3. a
