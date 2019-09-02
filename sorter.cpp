@@ -95,7 +95,7 @@ void sorter::bucketSortarr(double *arr, int n)
     {
         k = *(arr+i);
         int bi = floor(k / devider);
-        b[bi-1].push_back(k);
+        b[bi].push_back(k);
     }
 
     for (int i = 0; i<buckets; i++){
