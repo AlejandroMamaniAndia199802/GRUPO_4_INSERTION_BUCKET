@@ -39,35 +39,6 @@ void sorter::insertionSortVect(std::vector<int> &arr)
 	}
 }
 
-void sorter::bucketSortarr(int arr[], int n)
-{
-    int max = 0;
-    int k = 0;
-    for(int i=0; i<n; i++)
-    {
-        k = *(arr+i);
-        if(max < k){
-            max = k;
-        }
-    }
-    const int buckets = 10;
-    vector<int> b[buckets];
-    int devider = ceil((max+1)/buckets);
-    for (int i=0; i<n; i++)
-    {
-        k = *(arr+i);
-        int bi = floor(k / devider);
-        b[bi-1].push_back(k);
-    }
-    for (int i =0; i<buckets; i++)
-    {
-        insertionSortVect(b[i]);
-    }
-    int index = 0;
-    for (int i = 0; i < buckets; i++)
-        for (int j = 0; j < b[i].size(); j++)
-            arr[index++] = b[i][j];
-}
 
 void sorter::bucketSortVect(std::vector<int> &v)
 {
@@ -101,6 +72,42 @@ void sorter::bucketSortVect(std::vector<int> &v)
         }
     }
 
+}
+
+void sorter::bucketSortarr(double *arr, int n)
+{
+    double max = 0;
+    double k = 0;
+    for(int i=0; i<n; i++){
+        k = *(arr+i);
+        if(max < k){
+            max = k;
+        }
+    }
+
+    const int buckets = ceil(max);
+
+    vector<double> b[buckets];
+
+    int devider = ceil((max+1)/buckets);
+
+    for (int i=0; i<n; i++)
+    {
+        k = *(arr+i);
+        int bi = floor(k / devider);
+        b[bi-1].push_back(k);
+    }
+
+    for (int i = 0; i<buckets; i++){
+        sort(b[i].begin(), b[i].end());
+    }
+
+    int index = 0;
+    for (int i = 0; i < buckets; i++) {
+        for (int j = 0; j < b[i].size(); j++) {
+            arr[index++] = b[i][j];
+        }
+    }
 }
 
 
