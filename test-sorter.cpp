@@ -6,8 +6,6 @@
 
 TEST_CASE("SORT A SET OF NUMBERS BY INSERTION USING VECTOR")
 {
-
-
 	std::vector<int> X{4, 15, 5, 6, 42, 23};
 	std::vector<int> sortedX{4, 5, 6, 15, 23, 42};
     auto start = std::chrono::steady_clock::now();
