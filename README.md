@@ -33,7 +33,7 @@ through sentences like ("TEST CASE" and "REQUIRE").
 ![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_8000.png)
 ![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_49000.png)
 
-System specifications
+## Computer specifications
 
 ```sh
 $ sudo lshw -short
@@ -54,12 +54,7 @@ H/W path         Device      Class          Description
 /0/100/1/0                   display        GK107M [GeForce GT 640M LE]
 ```
 
-
-### Computer specifications
-
 ## Algorithm complexity
-
-## Conclusions
 
 * Bucket Sort
 	* Time Complexity:
