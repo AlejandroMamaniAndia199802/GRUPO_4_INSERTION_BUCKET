@@ -1,32 +1,31 @@
+# Insertion and bucket sort implementation in C++
 
-# BUCKET AND INSERT SORTING METHODS IN C++
+## Overview
 
-# OVERVIEW
-This project allows to sort numbers in C++, using t
+## Implementation
 
-# METHODS
+### Bucket sort
 
+### Insertion sort
 
-## BUCKET
+## Test Driven Development (TDD)
 
+### Tests
 
-## INSERT
+### Computer specifications
 
+## Algorithm complexity
 
+Space/time complexity table.
 
-# TEST DRIVEN DEVELOPMENT
+## Conclusions
 
-## TEST
+* a
+* a
+* a
 
+## References
 
-### COMPUTER SPECS
-
-
-
-### EFFICIENCY AND COMPUTATIONAL COST
-
-
-# CONCLUSIONS
-
-
-# REFERENCES
+1. a
+2. a
+3. a
