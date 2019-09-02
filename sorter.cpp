@@ -74,12 +74,7 @@ void sorter::bucketSortarr(int arr[], int n)
             arr[index++] = b[i][j];
 }
 
-<<<<<<< HEAD
 void sorter::bucketSortVect(std::vector<int> &data)
-=======
-
-void sorter::bucketSortVect(std::vector<int> &v)
->>>>>>> aab435692480a577cfb9d8e29bbbf7d1dd5a80c8
 {
     int count =data.size();
     int minValue = data[0];
