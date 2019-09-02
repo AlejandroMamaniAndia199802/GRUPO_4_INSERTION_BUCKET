@@ -33,6 +33,28 @@ through sentences like ("TEST CASE" and "REQUIRE").
 ![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_8000.png)
 ![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_49000.png)
 
+System specifications
+
+```sh
+$ sudo lshw -short
+H/W path         Device      Class          Description
+=======================================================
+                             system         SVS15125PLB (54510124)
+/0                           bus            VAIO
+/0/0                         memory         128KiB BIOS
+/0/4                         processor      Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz
+/0/4/5                       memory         128KiB L1 cache
+/0/4/6                       memory         512KiB L2 cache
+/0/4/7                       memory         4MiB L3 cache
+/0/a                         memory         8GiB System Memory
+/0/a/0                       memory         4GiB SODIMM DDR3
+/0/a/1                       memory         4GiB SODIMM DDR3
+/0/100                       bridge         3rd Gen Core processor DRAM Controller
+/0/100/1                     bridge         Xeon E3-1200 v2/3rd Gen Core processor PCI Express Root Port
+/0/100/1/0                   display        GK107M [GeForce GT 640M LE]
+```
+
+
 ### Computer specifications
 
 ## Algorithm complexity
