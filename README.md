@@ -70,5 +70,4 @@ H/W path         Device      Class          Description
 
 ## References
 
-1. a
-2. a
+1. 	Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein (2009) Introduction to Algorithms 3rd edition.
