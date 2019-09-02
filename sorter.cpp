@@ -74,46 +74,38 @@ void sorter::bucketSortarr(int arr[], int n)
             arr[index++] = b[i][j];
 }
 
-void sorter::bucketSortVect(std::vector<int> &data)
+void sorter::bucketSortVect(std::vector<int> &v)
 {
-    int count =data.size();
-    int minValue = data[0];
-    int maxValue = data[0];
-
-    for (int i = 1; i < count; i++)
-    {
-        if (data[i] > maxValue)
-            maxValue = data[i];
-        if (data[i] < minValue)
-            minValue = data[i];
-    }
-
-    int bucketLength = maxValue - minValue + 1;
-    vector<vector<int>> bucket(bucketLength);
-    for (int i = 0; i < bucketLength; i++)
-    {
-        bucket[i] = vector<int>();
-    }
-
-    for (int i = 0; i < count; i++)
-    {
-        bucket[data[i] - minValue].push_back(data[i]);
-    }
-
     int k = 0;
-    for (int i = 0; i < bucketLength; i++)
+    for(auto element : v)
     {
-        int bucketSize = bucket[i].size();
-
-        if (bucketSize > 0)
+        if (k == 0)
         {
-            for (int j = 0; j < bucketSize; j++)
+            k = element;
+        }
+        else
+        {
+            if (k < element)
             {
-                data[k] = bucket[i][j];
-                k++;
+                k = element;
             }
         }
     }
+    std::vector<int> w(k + 1, 0);
+    for (auto i : v)
+    {
+        w[i]++;
+    }
+    int index = 0;
+    for (unsigned int i = 0; i < w.size(); i++)
+    {
+        for (int j = 0; j < w[i]; j++)
+        {
+            v.at(index) = i;
+            index++;
+        }
+    }
+
 }
 
 
