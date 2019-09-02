@@ -27,8 +27,11 @@ To implement the test we used the library "catch.hpp".
 It allows to check the sort of any quantity of numbers,
 through sentences like ("TEST CASE" and "REQUIRE").
 
-### Tests
+## Running time of the implementation
 
+![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/3000.png)
+![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_8000.png)
+![Benchmark](https://github.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/blob/master/rsrc/img/0_to_49000.png)
 
 ### Computer specifications
 
@@ -37,16 +40,16 @@ through sentences like ("TEST CASE" and "REQUIRE").
 ## Conclusions
 
 * Bucket Sort
-Time Complexity:
-    Worse Case: O(n^2) all number put to same index of bucket with reverse order
-    Best Case: O(n + k) k is the range of input number
-Space Complexity: O(n)
+	* Time Complexity:
+		* Worse Case: O(n^2) all number put to same index of bucket with reverse order
+		* Best Case: O(n + k) k is the range of input number
+	* Space Complexity: O(n)
 * Insertion Sort
-Time Complexity: 
-Boundary Cases:
-    Worse Case: maximum time to sort if elements are sorted in reverse order.
-    Best Case:  O(n) when elements are already sorted.
-Space Complexity: O(n^2)
+	* Time Complexity: 
+		* Boundary Cases:
+		* Worse Case: maximum time to sort if elements are sorted in reverse order.
+		* Best Case:  O(n) when elements are already sorted.
+	* Space Complexity: O(n^2)
 
 ## References
 
