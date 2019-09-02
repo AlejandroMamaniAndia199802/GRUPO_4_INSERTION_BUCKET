@@ -55,9 +55,9 @@ TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING VECTOR")
 TEST_CASE("SORT A SET OF NUMBERS BY BUCKET USING ARRAY")
 {
     sorter sortingTester_3;
-    int N = 6;
-    double arrZ[]={4.25, 5.3, 10, 8.4, 8, 4.23};
-    double sortedarrZ[]={4.23, 4.25, 5.3, 8, 8.4, 10};
+    int N = 9;
+    double arrZ[]={1, 1.3, 0.2, 4.25, 5.3, 10, 8.4, 8, 4.23};
+    double sortedarrZ[]={0.2, 1, 1.3, 4.23, 4.25, 5.3, 8, 8.4, 10};
     sortingTester_3.bucketSortarr(arrZ, N);
     for (int i = 0; i < N; ++i)
     {
