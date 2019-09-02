@@ -6,6 +6,8 @@
 
 ### Bucket sort
 
+![]()
+
 ### Insertion sort
 
 ## Test Driven Development (TDD)
