@@ -2,13 +2,19 @@
 
 ## Overview
 
-## Implementation
+## Implementación
+
+### Insertion sort
+
+![Insertion sort pseudocode](https://raw.githubusercontent.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/master/rsrc/img/insertion_pseudocode.png)
+
+![Insertion sort implementation](https://raw.githubusercontent.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/master/rsrc/img/insertion_code.png)
 
 ### Bucket sort
 
-![]()
+![Bucket sort pseudocode](https://raw.githubusercontent.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/master/rsrc/img/bucket_pseudocode.png)
 
-### Insertion sort
+![Bucket sort implementation](https://raw.githubusercontent.com/AlejandroMamaniAndia199802/GRUPO_4_INSERTION_BUCKET/master/rsrc/img/bucket_code.png)
 
 ## Test Driven Development (TDD)
 
@@ -17,8 +23,6 @@
 ### Computer specifications
 
 ## Algorithm complexity
-
-Space/time complexity table.
 
 ## Conclusions
 
